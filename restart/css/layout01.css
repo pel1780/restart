@@ -1,0 +1,12 @@
+.Wrap {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+    background: tomato;
+}
+
+.Wrap .box {
+    flex: 1;
+    background: #ff0;
+}
