@@ -1,0 +1,58 @@
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 기본 세팅 */
+
+#mainVisual {
+    position: relative;
+    height: 100vh;
+    background: #333;
+}
+
+#header h1 img {
+    height: 100px;
+}
+
+#header {
+    line-height: 100px;
+}
+
+#header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .gnb>ul {
+    display: flex;
+    gap: 60px;
+}
+
+#header .gnb a {
+    display: block;
+}
+
+#header .gnb>ul>li {
+    position: relative;
+}
+
+#header .gnb .smenu {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    line-height: 40px;
+    background: tomato;
+    color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 150px;
+    z-index: 999;
+
+    display: none;
+}
+
+#header .gnb>ul>li:hover .smenu {
+    display: block;
+}

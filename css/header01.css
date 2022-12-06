@@ -1,0 +1,244 @@
+/* 기본 세팅 */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+.main_slide {
+    position: relative;
+    height: 100vh;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 100vh;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-height: 100px;
+}
+
+/* 세팅 */
+
+/* {header 01 */
+#header {
+    line-height: 100px;
+}
+
+#header .inner {
+    display: flex;
+}
+
+#header nav {
+    margin-left: auto;
+}
+
+#header nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+/* header01} */
+
+/* {header 02 */
+#header2 {
+    line-height: 100px;
+    background: #f9f9f9;
+}
+
+#header2 .inner {
+    display: flex;
+}
+
+#header2 nav {
+    margin: 0 0 0 auto;
+}
+
+#header2 nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+#header2 .right {
+    margin: 0 0 0 100px;
+}
+
+/* header 02} */
+
+/* {header 03 */
+#header3 {
+    line-height: 100px;
+}
+
+#header3 .inner {
+    display: flex;
+}
+
+#header3 nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+#header3 h1 {
+    flex: 1;
+}
+
+#header3 .right {
+    flex: 1;
+    text-align: right;
+}
+
+/* header 03} flex를 이용해서 nav를 가운데로 모는 방법*/
+
+/* {header 04 */
+#header4 {
+    line-height: 100px;
+    background: #f9f9f9;
+}
+
+#header4 .inner {
+    position: relative;
+}
+
+#header4 h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header4 .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header4 nav>ul {
+    font-size: 0;
+    text-align: center;
+}
+
+#header4 nav>ul>li {
+    display: inline-block;
+}
+
+#header4 nav>ul>li>a {
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+/* header 04} position을 이용해서 nav를 가운데로 정렬하는 방법 */
+
+/* {header 05 */
+#header5 {
+    line-height: 100px;
+}
+
+#header5 .inner {
+    display: flex;
+}
+
+#header5 nav {
+    flex: 1;
+}
+
+#header5 .right {
+    flex: 1;
+    text-align: right;
+}
+
+#header5 nav>ul {
+    display: flex;
+    gap: 50px;
+}
+
+/* header 05} flex를 이용하여 로고를 가운데에 두는 방법 */
+
+/* {header 06 */
+#header6 {
+    line-height: 100px;
+    background: #f9f9f9;
+}
+
+#header6 .gnb_wrap {
+    display: flex;
+    padding: 0 100px;
+}
+
+#header6 nav {
+    flex: 1;
+}
+
+#header6 nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+#header6 .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* header 06} */
+
+/* {header - sticky */
+#header-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    line-height: 100px;
+    background: #f9f9f9;
+    z-index: 999;
+}
+
+#header-sticky .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-sticky nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+#main_visual .main_slide {
+    margin: 0 0 100vh 0;
+}
+
+/* header-sticky} 한 섹션에 고정시키는방법 마진을 만나면 올라간다*/
+
+/* {header_scroll */
+#header_scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 100px;
+    transition: 0.5s;
+}
+
+#header_scroll.on {
+    line-height: 60px;
+    background: #fff;
+}
+
+#header_scroll.on img {
+    height: 60px;
+}
+
+#header_scroll .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_scroll nav>ul {
+    display: flex;
+    gap: 60px;
+}
+
+.gong {
+    height: 200vh;
+    background: url(../img/mainvisual01.jpg);
+}

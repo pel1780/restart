@@ -1,0 +1,40 @@
+.main_event {
+    padding: 100px 0;
+}
+
+.main_event h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 0 10px 0;
+}
+
+.main_event p {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 30px 0;
+}
+
+.main_event .inner {
+    width: 1200px;
+    gap: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_event .inner figure {
+    flex: 1;
+}
+
+.main_event .inner img {
+    min-width: 100%;
+}
+
+.main_event .inner .box {
+    margin: 0 0 30px 0;
+}
+
+.main_event .inner .desc {
+    font-size: 15px;
+    text-align: center;
+}
