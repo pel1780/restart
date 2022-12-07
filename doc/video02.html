@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video를 js에 연결해서 사용하기</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/video02.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/video02.js" defer></script>
+</head>
+
+<body>
+    <div class="Wrap">
+        <header class="header">
+            <h1>
+                <a href="">
+                    <img src="../img/logo_white.svg" alt="">
+                </a>
+                <i class="xi-play"></i>
+                <i class="xi-pause"></i>
+            </h1>
+        </header>
+        <main>
+            <section class="mainVisual">
+                <div class="video_wrap">
+                    <video src="../img/car.mp4" autoplay muted loop playsinline></video>
+                </div>
+                <div class="controls">
+                    <button class="control">정지</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            &copy; car.
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유튜브를 불러오기</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="../css/utb01.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="../js/utb01.js" defer></script>
+</head>
+
+<body>
+    <div class="Wrap">
+        <header class="header">
+            <h1>
+                <a href="">
+                    <img src="../img/logo_white.svg" alt="">
+                </a>
+                <i class="xi-play"></i>
+                <i class="xi-pause"></i>
+            </h1>
+        </header>
+        <main>
+            <section class="mainVisual">
+                <div class="video_wrap">
+                    <div id="min_video" class="player min_video"></div>
+                </div>
+                <div class="controls">
+                    <button class="pause">정지</button>
+                    <button class="play">재생</button>
+                </div>
+            </section>
+            <section class="utb">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/VGY2dxrQyPg"
+                    title="아니 강아지랑 이렇게 뛰어노는 고양이가 있다고?... 리얼 개냥이 까미의 시골살이" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+        </main>
+        <footer class="footer">
+            &copy; car.
+        </footer>
+    </div>
+</body>
+
+</html>
