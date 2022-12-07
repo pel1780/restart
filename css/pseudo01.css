@@ -1,0 +1,171 @@
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.sec {
+    padding: 100px 0;
+}
+
+.sec h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.sec p {
+    font-size: 15px;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.sec .inner {
+    width: 1200px;
+    height: 400px;
+    background: tomato;
+    margin: 0 auto;
+}
+
+.pseudo01 h2::before {
+    content: "앞";
+}
+
+.pseudo01 h2::after {
+    content: "뒤";
+}
+
+.pseudo02 h2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: tomato;
+    margin: 10px auto;
+}
+
+.pseudo03 h2::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background: tomato;
+    vertical-align: middle;
+    margin: 0 10px;
+    transform: translate(0, -2px);
+}
+
+.pseudo03 h2::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background: tomato;
+    vertical-align: middle;
+    margin: 0 10px;
+    transform: translate(0, -2px);
+}
+
+.pseudo04 h2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pseudo04 h2::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: tomato;
+    flex: 1;
+}
+
+.pseudo04 h2::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: tomato;
+    flex: 1;
+}
+
+.dot_list>li {
+    line-height: 40px;
+}
+
+.dot_list>li::before {
+    content: "\e9e1";
+    font-family: xeicon !important;
+    margin: 0 10px 0 0;
+}
+
+.dot_list2>li {
+    position: relative;
+    line-height: 40px;
+    padding: 0 0 0 30px;
+}
+
+.dot_list2>li::before {
+    content: "\e9e1";
+    font-family: xeicon !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: 1px solid #333;
+}
+
+.pseudo07 .inner {
+    display: grid;
+    gap: 60px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    height: auto;
+    background: transparent;
+}
+
+.pseudo07 figure {
+    position: relative;
+}
+
+.pseudo07 figure::after {
+    content: attr(data-txt);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: tomato;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot_list3>li {
+    position: relative;
+    line-height: 40px;
+    padding: 0 0 0 30px;
+}
+
+.dot_list3>li::before {
+    content: "\f7ca";
+    font-family: bootstrap-icons !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.dot_list4>li {
+    position: relative;
+    line-height: 40px;
+    padding: 0 0 0 30px;
+}
+
+.dot_list4>li::before {
+    content: "\f242";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}

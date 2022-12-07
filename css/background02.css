@@ -1,0 +1,48 @@
+.sec {
+    height: 50vh;
+    margin: 100px;
+    padding: 100px;
+}
+
+.lg01 {
+    background: linear-gradient(red, orange);
+}
+
+.lg02 {
+    background: linear-gradient(to right, red, orange);
+}
+
+.lg03 {
+    background: linear-gradient(to right, red, orange 50%);
+}
+
+.lg04 {
+    position: relative;
+    background: url(../img/mainvisual01.jpg);
+}
+
+.lg04::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to right, #333 2%, transparent 100%);
+}
+
+.lg04 {
+    position: relative;
+    background: url(../img/mainvisual01.jpg);
+}
+
+.lg04::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: url(../img/pt01.png);
+    opacity: 0.2;
+}

@@ -1,0 +1,58 @@
+.sec {
+    height: 50vh;
+    margin: 100px;
+    padding: 100px;
+    border: 30px solid transparent;
+}
+
+.bg01 {
+    position: relative;
+    background: url(../img/mainvisual01.jpg);
+}
+
+.bg01 .position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: tomato;
+}
+
+/* background, position의 기준점은 border안쪽 */
+
+.bg02 {
+    background: url(../img/logo.png);
+}
+
+.bg03 {
+    background: url(../img/logo.png);
+    background-repeat: repeat-y;
+}
+
+.bg04 {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg05 {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-color: tomato;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: auto 100%;
+}
+
+.bg06 {
+    background: url(../img/logo.png) no-repeat center center/cover;
+    /* 축약형: color img repeat position-x position-y/size */
+}
+
+.bg07 {
+    background: url(../img/mainvisual01.jpg) no-repeat fixed center center/cover;
+    /* background-attachment: fixed; */
+}
