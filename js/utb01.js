@@ -1,6 +1,11 @@
 $('#min_video').YTPlayer({
     videoURL: 'http://youtu.be/BsekcY04xvQ',
-    containment: '.video_wrap', autoPlay: true, mute: true, startAt: 0, opacity: 1, showControls: false,
+    containment: '.video_wrap',
+    autoPlay: true,
+    mute: true,
+    startAt: 0,
+    opacity: 1,
+    showControls: false,
     playOnlyIfVisible: true,
 });
 

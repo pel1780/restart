@@ -1,0 +1,47 @@
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio .inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.port_slide {
+    margin: 0 -15px;
+}
+
+.portfolio figure {
+    padding: 0 15px;
+}
+
+.product {
+    padding: 100px 0;
+    background: url(../img/section2_bg.jpg) no-repeat center center/cover;
+
+}
+
+.product .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product .inner .left {
+    flex: 2;
+    overflow: hidden;
+}
+
+.product .inner .left figure {
+    padding: 0 15px;
+}
+
+.product_slide {
+    margin: 0 -15px;
+}
+
+.product .inner .right {
+    flex: 1;
+}
